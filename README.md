@@ -1,4 +1,4 @@
-# goitneo-python-hw-2-group-5
+# goitneo-python-hw-3-group-5
 
 ## Overview
 
