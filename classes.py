@@ -76,7 +76,7 @@ class Record:
 
     def __str__(self):
         phones_str = "; ".join(p.value for p in self.phones)
-        return f"\033[94mContact name: \033[92m{self.name.value}, \033[94mphones: \033[92m{phones_str}\033[0m"
+        return f"\033[94mContact name: \033[92m{self.name.value}, \033[94mphone: \033[92m{phones_str}\033[0m"
 
 
 class AddressBook(UserDict):
